@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from 'react';
 import { LogOut, User } from 'lucide-react';
-import { getTasks, saveTasks, generateId, clearUser } from '../utils/localStorage';
+import { getTasks, saveTasks, generateId, clearUser } from '../utils/LocalStorage';
 import TaskForm from './TaskForm';
 import TaskList from './TaskList';
 import TaskFilter from './TaskFilter';
